@@ -1,0 +1,46 @@
+{
+  "development": {
+    "type": "Full-stack e-commerce platform",
+    "title": "Cross Creek Studio",
+    "url": "https://www.crosscreekstudio.net",
+    "summary": "Cross Creek Studio is a live e-commerce platform I designed and built independently, including the customer storefront and the administrative tools behind it.",
+    "role": "Solo designer & developer",
+    "scope": "Design, frontend, API & operations",
+    "status": "Live production site",
+    "hosting": "Cloud-hosted MEAN stack",
+    "stack": ["Angular", "Node.js", "Express", "MongoDB", "Mongoose", "PayPal", "Tailwind CSS"],
+    "capabilities": [
+      {"title": "Commerce", "description": "Products, variants, inventory, carts, promo codes, configurable tax and shipping, and PayPal checkout."},
+      {"title": "Operations", "description": "Order management, status updates, customer confirmations, tracking messages, and role-based administration."},
+      {"title": "Content", "description": "A seasonal gallery, product imagery, contact flows, and tools for managing a changing catalog."},
+      {"title": "Production", "description": "Responsive layouts, server-side validation, transactional data, search metadata, and a maintained live deployment."}
+    ],
+    "story": [
+      {"heading": "The brief", "body": "Cross Creek Studio needed more than a brochure. It needed a storefront that could explain unusual products, support a large visual catalog, take real orders, and remain manageable for the people running the business."},
+      {"heading": "The difficult work", "body": "The hardest problems lived between screens: keeping variant inventory and cart quantities consistent, calculating discounts, tax, and shipping on the server, handing a confirmed payment into an order, and giving an administrator enough control without exposing private operations to shoppers. Those details took repeated testing and refinement."}
+    ],
+    "screenshots": [
+      {"image": "images/cross-creek-studio-home.png", "alt": "Cross Creek Studio homepage showing paint kits, handmade journals, and the purchase process", "caption": "Homepage and product story"},
+      {"image": "images/cross-creek-studio-store.jpg", "alt": "Cross Creek Studio store showing a filterable catalog of paint kits and journals", "caption": "Searchable product catalog"},
+      {"image": "images/cross-creek-studio-product.jpg", "alt": "Cross Creek Studio product detail with image gallery, information, options, quantity, and add-to-cart control", "caption": "Product detail and purchase controls"},
+      {"image": "images/cross-creek-studio-cart.png", "alt": "Cross Creek Studio shopping cart showing selected products and the customer order summary", "caption": "Shopping cart and order review", "placeholder": "Shopping cart screenshot"}
+    ],
+    "adminShowcase": {
+      "title": "Behind the storefront",
+      "description": "Custom tools for product and order management.",
+      "image": "images/cross-creek-studio-admin.png",
+      "alt": "Cross Creek Studio administration interface for product and order management",
+      "caption": "Product and order management",
+      "placeholder": "Administration interface screenshot"
+    }
+  },
+  "narration": {
+    "audiobooks": [
+      {"title": "I Forgave You Yesterday", "author": "James Skeen", "format": "Unabridged audiobook • 7 hr 7 min", "image": "images/IForgave.jpg", "url": "https://www.audible.com/pd/B0B331S79Q", "description": "My first published audiobook narration."},
+      {"title": "Nothing More to Give", "author": "James Skeen", "format": "Unabridged audiobook • 4 hr 44 min", "image": "images/NothingMore.jpg", "url": "https://www.audible.com/pd/B0DQ299Z92", "description": "A second full-length audiobook collaboration."}
+    ],
+    "channel": {"title": "Aaron's Classic Stories", "url": "https://www.youtube.com/@AaronsClassicStories", "description": "Classic literature presented through narration and original storybook visuals.",
+      "image": "images/Aarons_Classic_Stories.png",
+      "imageAlt": "The reading burrito from Aaron's Classic Stories"}
+  }
+}
